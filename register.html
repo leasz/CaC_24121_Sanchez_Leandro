@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo"
+                ><a href="index.html">LOGO CAC MOVIES</a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#">Tendencias</a>
+                </li>
+                <li>
+                    <a href="register.html">Registrate</a>
+                </li>
+                <li>
+                    <a href="login.html">Iniciar Sesion</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        FORMULARIO DE REGISTRO
+    <form action="" id="registerForm" method="post">
+        <div>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="Apellido">Apellido: </label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div>
+            <label for="FechaNacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+
+        <div>
+            <label for="Pais">Nacionalidad: </label>
+            <select name="pais" id="pais">
+                <option value="">Seleccione</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="CH">Chile</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Correo">Correo: </label>
+            <input type="text" name="mail" id="mail">
+        </div>
+
+        <div>
+            <label for="Usuario">Usuario: </label>
+            <input type="text" name="user" id="user">
+        </div>
+        <div>
+            <label for="Contraseña">Contraseña: </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <button type="submit">Enviar datos!</button>
+    </form>
+
+    <div>
+        <form action=""></form>
+
+    </div>
+    <br>
+    <a href="index.html">Back to home</a>
+    </main>
+    
+
+    <footer class="footer">
+
+        <ul>
+            <li> <a href="terms.html">Terminos y condiciones</a></li>
+            <li> <a href="faq.html">Preguntas frecuentes</a></li>
+            <li> <a href="help.html">Ayuda</a></li>
+            <li> <a href="movies_adm.html">Administrador de peliculas</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>

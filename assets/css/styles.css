@@ -1,0 +1,65 @@
+*{
+    color: white;
+    margin: 10px;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: black;
+}
+.header{
+    background-color: #9f3647;
+    width: 100%;
+    position: sticky;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 50px;
+    height: 60px;
+}
+.logo{
+    align-content: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.main{
+    background-color: orange;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trends{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.movie{
+    width: 200px;
+}
+
+.footer{
+    background-color: #9f3647;
+}
+
+#banner{
+    background-image: url(/assets/img/Banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
